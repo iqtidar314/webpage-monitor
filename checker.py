@@ -7,9 +7,8 @@ URL = "https://dhakacollege.edu.bd/notice"
 HASH_FILE = "hash.txt"
 
 # Telegram settings
-BOT_TOKEN = os.getenv("8110801820:AAFZo_fkG0VPunmc2ErG4Hwejn8YaNcQMRs
-")
-CHAT_ID = os.getenv("5076910986")
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
 # Fetch the webpage content
