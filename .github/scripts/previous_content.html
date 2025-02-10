@@ -1,0 +1,5710 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <!-- WOW Animate CSS -->
+  <link href="https://dhakacollege.edu.bd/frontend/css/animate.css" rel="stylesheet"/>
+  <!-- Font Awesome CSS CDN Link -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet" type="text/css"/>
+  <!-- Bootstrap CSS CDN Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Animate CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+   <!-- Data Table CSS CDN -->
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap.min.css" rel="stylesheet"/>
+   <link href="https://cdn.datatables.net/1.13.1/css/dataTables.bootstrap5.min.css" rel="stylesheet"/>
+   <link href="https://dhakacollege.edu.bd/frontend/css/owl.carousel.css" rel="stylesheet">
+    <style>
+     .owl-theme .owl-nav{margin-top:10px;text-align:center;-webkit-tap-highlight-color:transparent}.owl-theme .owl-nav [class*="owl-"]{color:#fff;font-size:14px;margin:5px;padding:4px 7px;background:#d6d6d6;display:inline-block;cursor:pointer;border-radius:3px}.owl-theme .owl-nav [class*="owl-"]:hover{background:#869791;color:#fff;text-decoration:none}.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}.owl-theme .owl-nav.disabled+.owl-dots{margin-top:10px}.owl-theme .owl-dots{text-align:center;-webkit-tap-highlight-color:transparent}.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1;*display: inline}.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#d6d6d6;display:block;-webkit-backface-visibility:visible;transition:opacity 200ms ease;border-radius:30px}.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}
+    </style>
+    <!-- Swiper Slider CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" rel="stylesheet">
+     <!-- Custom CSS File -->
+     <link href="https://dhakacollege.edu.bd/frontend/css/style.css" rel="stylesheet" type="text/css"/>
+     <title>
+      Dhaka College
+     </title>
+     <link href="https://dhakacollege.edu.bd/frontend/img/favicon.png" rel="icon" type="image/x-icon">
+      <style>
+       .eventBox img{width:300px;border-radius:3px}.eventBox{width:300px;margin:0 10px;box-shadow:0 0 20px 2px rgba(0,0,0,.1);transition:1.2s}.eventBox:hover{transform:scale(2);z-index:2}.owl-theme .owl-nav{display:none}.owl-theme .owl-dots{display:none}.owl-item{-webkit-backface-visibility:hidden;-webkit-transform:translateZ(0) scale(1.0,1.0)}.black a{color:#000;border-color:rgba(0,0,0,.4)}.black a:hover{border-color:#000}.owl-controls{position:absolute;margin-top:300px}
+      </style>
+     </link>
+    </link>
+   </link>
+  </link>
+ </head>
+ <body>
+  <!-- Header Section Start -->
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-lg-12">
+      <nav class="navbar navbar-expand-lg navbar-light" id="main_navbar">
+       <div class="container-fluid">
+        <a class="navbar-brand" href="">
+         <img src="https://dhakacollege.edu.bd/frontend/img/logo.png"/>
+        </a>
+        <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button">
+         <span class="navbar-toggler-icon">
+         </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+           <a aria-current="page" class="nav-link active" href="https://dhakacollege.edu.bd">
+            Home
+           </a>
+          </li>
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
+            About Us
+           </a>
+           <ul class="dropdown-menu">
+            <li>
+             <a class="dropdown-item" href="https://dhakacollege.edu.bd/ourHistory">
+              Our History
+             </a>
+            </li>
+            <li class="nav-item dropend">
+             <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
+              Archive
+             </a>
+             <ul class="dropdown-menu">
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/archive/FORMER_PRINCIPALS">
+                Former Principals
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/archive/FORMER_VICE_PRINCIPALS">
+                Former Vice-Principals
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/archive/TEACHERS_COUNCIL">
+                Teacher's Council
+               </a>
+              </li>
+             </ul>
+            </li>
+           </ul>
+          </li>
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
+            Department
+           </a>
+           <ul class="dropdown-menu">
+            <li class="nav-item dropend">
+             <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#" id="subDrop" role="button">
+              Science
+             </a>
+             <ul class="dropdown-menu">
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Physics">
+                Physics
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Chemistry">
+                Chemistry
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Mathematics">
+                Mathematics
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Botany">
+                Botany
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Zoology">
+                Zoology
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/ICT">
+                ICT
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Geography">
+                Geography
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Statistics">
+                Statistics
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Psychology">
+                Psychology
+               </a>
+              </li>
+             </ul>
+            </li>
+            <li class="nav-item dropend">
+             <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
+              Commerce
+             </a>
+             <ul class="dropdown-menu">
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Accounting">
+                Accounting
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Management">
+                Management
+               </a>
+              </li>
+             </ul>
+            </li>
+            <li class="nav-item dropend">
+             <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
+              Arts
+             </a>
+             <ul class="dropdown-menu">
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Islamic_studies">
+                Arabic &amp; Islamic Studies
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Bangla">
+                Bangla
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/English">
+                English
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Economics">
+                Economics
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Philosophy">
+                Philosophy
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Political_Science">
+                Political Science
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Islamic_History">
+                Islamic History &amp; Culture
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/Sociology">
+                Sociology
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/department/History">
+                History
+               </a>
+              </li>
+             </ul>
+            </li>
+           </ul>
+          </li>
+          <li class="nav-item dropdown">
+           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
+            Co-Curriculam
+           </a>
+           <ul class="dropdown-menu">
+            <li class="nav-item dropend">
+             <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button">
+              Hostel Information
+             </a>
+             <ul class="dropdown-menu">
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/hall/North_hall">
+                North Hall
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/hall/South_hall">
+                South hall
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/hall/West_hall">
+                West Hall
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/hall/Dakhanian_hall">
+                Dakhanian Hall
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/hall/International_hall">
+                International Hall
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/hall/Degree_hall">
+                Akteruzzaman Elias Degree Hall
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/hall/Kamal_hall">
+                Shaheed Sheikh Kamal Hall
+               </a>
+              </li>
+              <li>
+               <a class="dropdown-item" href="https://dhakacollege.edu.bd/hall/Hossain_hall">
+                Shaheed Forhad Hossain Hall
+               </a>
+              </li>
+             </ul>
+            </li>
+            <li>
+             <a class="dropdown-item" href="https://dhakacollege.edu.bd/curriculam/Bncc">
+              BNCC
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="https://dhakacollege.edu.bd/curriculam/Rover_Scout">
+              Rover Scout
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="https://dhakacollege.edu.bd/curriculam/Red_Crescent">
+              Red Crescent
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="https://dhakacollege.edu.bd/curriculam/Debating_Society">
+              Debating Society
+             </a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="https://dhakacollege.edu.bd/curriculam/Library_Information">
+              Library Information
+             </a>
+            </li>
+           </ul>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="http://dhakacollege.eshiksabd.com/">
+            Admission
+           </a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="http://dhakacollege.eshiksabd.com/">
+            Result
+           </a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="https://dhakacollege.edu.bd/journal">
+            Journal
+           </a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="https://www.dhakacollege.edu.bd:2096/">
+            Webmail
+           </a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="https://dhakacollege.edu.bd/notice">
+            Notice
+           </a>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <!-- Notice Table Section Start -->
+  <section>
+   <div class="notice-table">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-12">
+       <h2 class="noticeTitle">
+        Dhaka College All Notices
+       </h2>
+       <!-- Table Start -->
+       <table class="table table-hover table-striped" id="">
+        <thead>
+         <tr>
+          <th scope="col">
+           Description
+          </th>
+          <th scope="col">
+           Download
+          </th>
+          <th data-sortable="true" data-sorter="moneySorter" scope="col">
+           Date
+          </th>
+         </tr>
+        </thead>
+        <tbody>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67a89e07c84ef31731739103751274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-02-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for class Xi Students (2024-2025)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67a761359caf0546173902264595a0a27294f3574759bf369210a5c91d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-02-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের ৪র্থ বর্ষ অনার্স অনিয়মিত ও মানোন্নয়ন (পুরাতন সিলেবাস) পরীক্ষার ফরম পূরণ ও টাকা জমার বিজ্ঞপ্তি.pdf and অনার্স 4র্থ বর্ষের পূর্নভর্তির টাকা জমার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67a1d7531f29122617386596672687a6f5aa3700ad610e81d48f9a3825.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-02-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের ৪র্থ বর্ষ অনার্স অনিয়মিত ও মানোন্নয়ন (পুরাতন সিলেবাস) পরীক্ষার ফরম পূরণ ও টাকা জমার বিজ্ঞপ্তি.pdf and অনার্স 4র্থ বর্ষের পূর্নভর্তির টাকা জমার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67a1d70d2e586117917386595972687a6f5aa3700ad610e81d48f9a3825.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-02-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের ৪র্থ বর্ষ অনার্স অনিয়মিত ও মানোন্নয়ন (পুরাতন সিলেবাস) পরীক্ষার ফরম পূরণ ও টাকা জমার বিজ্ঞপ্তি.pdf and অনার্স 4র্থ বর্ষের পূর্নভর্তির টাকা জমার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67a1d6dd037e5298717386595492687a6f5aa3700ad610e81d48f9a3825.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-02-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Xi for registration
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67a1d692ef66a27917386594746d9f7c59896bcde6e1d6ecae0a94d537.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-02-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Muhammad Mohsinuddin Firoz
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67a1d5ff8835c1671738659327d764aece61a3b7369f96db583c3185c0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-02-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/679f787a6d0a315151738504314274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-02-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI Half Yearly + XII Test Postponed Exam Held Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/679ed2ec1cece31551738461932bb5e5dde2484cd7e76bf89b987ad00f7.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-02-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67979de60e49d761737989606274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ক্লাস স্থগিতের নোটিশ:একাদশ এবং দ্বাদশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6794d673b93ab12781737807475fa716550411b6ede5aa27890a012e056.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ হতে স্নাতকোত্তর শ্রেণির শিক্ষার্থীদেরসংখ্যালঘু সম্প্রদায়, তফসিলী উপবৃত্তির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/678f901abf2d6172917374617866661308bfe038e179aad20722f9f80e2.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ হতে স্নাতকোত্তর শ্রেণির শিক্ষার্থীদেরসংখ্যালঘু সম্প্রদায়, তফসিলী উপবৃত্তির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/678f8fef089c5216317374617436661308bfe038e179aad20722f9f80e2.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ হতে স্নাতকোত্তর শ্রেণির শিক্ষার্থীদেরসংখ্যালঘু সম্প্রদায়, তফসিলী উপবৃত্তির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/678f8fc6e350551217374617026661308bfe038e179aad20722f9f80e2.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           মাস্টার্স শেষপর্ব, অনার্স ২য় বর্ষ ও অনার্স ৩য় বর্ষ পরীক্ষা উপলক্ষ্যে উচ্চমাধ্যমিক, অনার্স ও মাস্টার্স শ্রেণির ক্লাস স্থগিতের বিজ্ঞ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/678f8e67740ff40517374613514df587d159a2f65202478dc03f7e6601.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for unfit students of class XII
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/678dad863c3d2198517373382461fc720493a2083e3c565f41c0dd35929.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           নির্বাচনী পরীক্ষার প্রস্তুতির জন্য দ্বাদশ শ্রেণির ক্লাস বন্ধের নোটিশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/678dad4e9575624621737338190d43e1af28f6d51771e6a32bfd6e96f97.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বিজ্ঞপ্তি:দ্বাদশ শ্রেণি(সেশন ২০২৩-২৪)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/678cc599a9cca215317372788732cbe9bb8446d0b62b2cb73b783b887d2.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           দ্বাদশ শ্রেণির পরীক্ষার সংশোধিত সময়সূচি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67894d9fd70311781737051551d724dab0feda6d8f0539a316acb97d92.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির পরীক্ষার সংশোধিত সময়সূচি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67894d71b4428232017370515051706792f9744638c1a7d25a475311d22.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির (শিক্ষাবর্ষ ২০২৪-২০২৫) ভর্তিকৃত শিক্ষার্থীদের বিষয় ও গ্রুপ পরিবর্তন এবং ভর্তি বাতিল এর বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/677ff6e76d363291017364395278fb5e2541a4220094732328d401ba69d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অনার্স ২য় বর্ষ পরীক্ষা-২০২৩ উপলক্ষে ক্লাস পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/677ff6b9826de2571736439481530255bad33cc0ba2da03a2eb673303f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Result Published Notice for Class XII
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/677ff67a18600284017364394187505bd6b731d9e2271d9d0bebc412cc8.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CT-2 Exam Notice for Class XII
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/677ff65113d6a132417364393775e0e9b223f596003ddcbafc8e44108f4.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অনার্স ৩য় বর্ষ পরীক্ষা-২০২৩ উপলক্ষে ক্লাস পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/677daeeec3ab237717362900305792e2ac7e8920e9b0c115ab4efeaa6d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বোর্ড বৃত্তির টাকা প্রাপ্তি সংক্রান্ত জরুরি বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/677dae891ece431201736289929f5f6c37a69c6ba7d9e5a52866943a097.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ক্লাস স্থগিতের নোটিশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/677aa0706d96d1466173608971285768171cf5ecedba3ec20835ee2242f.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-05
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ক্লাস স্থগিতের নোটিশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/677aa06133e951393173608969785768171cf5ecedba3ec20835ee2242f.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-05
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চমাধ্যমিক এবং অনার্স এর প্রাক্তন ছাত্রদের রিইউনিয়ন ঢালী’স আম্বার নিবাস রিসোর্ট মুন্সীগঞ্জে অংশগ্রহণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67775ff0953c8270173587659207847601bc9bdc59e697db5f0e579d44.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2025-01-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC update-Shantono Hasan
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/676a36cf4fa4a18851735014095dcc8ed409b15890de18b7b12fd957725.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC-Shantono Hasan
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67680ebcecb1119641734872764fe7a738ded6284f14c9993f74ccd2d5a.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ঢাকা কলেজ ডিবেটিং সোসাইটির আয়োজনে আন্তঃবিভাগ বিতর্ক প্রতিযোগিতার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6761bef7d844623901734459127a51c8cb239b6163ef5eaf102e97fe008.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির (শিক্ষাবর্ষ ২০২৪-২০২৫) অর্ধ-বার্ষিক পরীক্ষার সময়সূচির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6761be7a8991719701734459002ac1853365b7da8889c98e263ffd14daf.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           দ্বাদশ শ্রেণির সিটি-2 এর সময়সূচি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6761be45bac2d41317344589495612cafcfdedaddaaf72e509669ed6dc.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           দ্বাদশ শ্রেণির (শিক্ষাবর্ষ ২০২৩-২০২৪) নির্বাচনী পরীক্ষার সময়সূচির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6761be034554f17491734458883f213e61dea4177fe08e26a4c50f3d617.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ব্যাডমিন্টন খেলার ফিকচার
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/675daf2f0c0512466173419294375277764b8ddec8e314001d49a38998b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Board Scholarship Bounced List
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/675b1b9565b9a1788173402408572efdb101a9b2de266d0123c2d464f03.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চমাধ্যমিক ও অনার্স শ্রেণির শিক্ষার্থীদের বোর্ড বৃত্তির টাকা প্রাপ্তি সংক্রান্ত জরুরি বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/675ad8d1032ff1204173400699342d92799830123c9b4502478cd67f377.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ১৪ ডিসেম্বর শহিদ বুদ্ধিজীবী দিবস-২০২৪ উদযাপন উপলক্ষে শিক্ষক, ছাত্র ও কর্মচারীদের উপস্থিতির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/675ad81bad9a025701734006811a20b30968a1570400866ab748b7f70ed.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ১৬ ডিসেম্বর মহান বিজয় দিবস-২০২৪ দিবস উদযাপন উপলক্ষে শিক্ষক, ছাত্র ও কর্মচারীদের উপস্থিতির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/675ad77fdd8a324451734006655a20b30968a1570400866ab748b7f70ed.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ১২-১২-২৪ এর ব্যাডমিন্টন খেলার ফিকচার
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6759d109e93f113361733939465daf1360d6c3c559cd75562cada6068fb.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ব্যাডমিন্টন খেলার ফিকচার
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67587b7194d652610173385201775277764b8ddec8e314001d49a38998b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Farhana Wazi
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6757e3cc10975137417338131962e6915ae5352a2e7fbf30d0988cde143.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Luna Sharmin
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6757e37c887661372173381311617e90712e369998b010fc3504074383e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Md. Abdul Hamid
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6757e3279c62425081733813031791b794a311b56a69b9c60f79c57d345.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বার্ষিক ক্রীড়া প্রতিযোগিতা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/675702346857750617337554444bf8aed7dac54ccd52ea53592d1cdff0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বার্ষিক ক্রীড়া প্রতিযোগিতার দ্বৈত ইভেন্টের নেটিশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/675701e2cace726791733755362db8e960009156b0d5754cfb032e0eba9.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ক্রীড়া প্রতিযোগিতা -২০২৪
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6755d1b10afc9258217336774890052b741439d6a28dbca2a08682529c0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ক্রীড়া প্রতিযোগিতা -২০২৪
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6752e67bb8789290117334862030052b741439d6a28dbca2a08682529c0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-06
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67517072c9d8614761733390450274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-05
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সনের মাস্টার্স শেষপর্ব নিয়মিত, অনিয়মিত ও মানোন্নয়ন পরীক্ষার সময়বৃদ্ধির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67510e84bc3ac89117333653801a222d76b29e0c5cd71c0cb6d9cd6920.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-05
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ক্রীড়া প্রতিযোগিতা-2024
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674f12c2712af12271733235394207e7dcb824191659f9d79a164fade30.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সালের মাস্টার্স শেষপর্ব (বিশেষ) পরীক্ষার ৫০০০ টাকার জরিমানাসহ ফি-এর আংশিক সংশোধন বিজ্ঞপ্তি.pdf and ২০২২ সালের মাস্টার্স শেষপর্ব (বিশেষ) পরীক্ষার এফ গ্রেড প্রাপ্ত ফি-এর আংশিক সংশোধন
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674ee9191e9c023891733224729e63f1af14d8b910affb36cc3e2f53835.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সালের মাস্টার্স শেষপর্ব (বিশেষ) পরীক্ষার ৫০০০ টাকার জরিমানাসহ ফি-এর আংশিক সংশোধন বিজ্ঞপ্তি.pdf and ২০২২ সালের মাস্টার্স শেষপর্ব (বিশেষ) পরীক্ষার এফ গ্রেড প্রাপ্ত ফি-এর আংশিক সংশোধন
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674ee90792b922331733224711e63f1af14d8b910affb36cc3e2f53835.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           দ্বাদশ শ্রেণির ২০২৩-২০২৪ শিক্ষাবর্ষের শিক্ষার্থীদের অনলাইন টিসি এবং বোর্ড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674dd9b4a9d7a1981733155252e115ab5bd87b85f50b132504e7c4a492.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class XI Special Evaluation Corrected Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674dd86455580132517331549167a7dc1fbc4a6bd5f2fd8981122b07efe.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বৈষম্যবিরোধী আন্দোলনে শহিদ ও আহতদের স্মারণে স্মরণসভা ও সাংস্কৃতিক অনুষ্ঠানের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674dd8004650526231733154816dbe3cbb97597d073da2623dd31afcd9d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-12-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII Special Evaluation (SE) Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674bf123d44d6217317330301793d79962b75a2f6e273151e17b7cf55f0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           মাস্টার্স ২০২২-২৩ শিক্ষাবর্ষের আইসিটি ক্লাসের সময়সূচী
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674b507cdeb042433173298905268a9dc4c56e751c20d3e9dc2c5b75ed8.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ, দ্বাদশ ও অনার্স-মাস্টার্স শ্রেণির শিক্ষার্থীদের অভ্যন্তরীণ ক্রীড়া প্রতিযোগিতা-২০২৪ বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67460f4a8033016941732644682d1ec0cbe1136b7586befdf6e0ba66711.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) মানোন্নয়ন পরীক্ষার ৫০০০ টাকা জরিমানাসহ ফরম পূরণের ফি জমা (সংশোধিত).pdf and ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) F গ্রেড ও মানোন্নয়ন পরীক্ষার ফরম পূরণের টাকা জমার বিজ্ঞপ্তি (সংশোধিত)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67460efa95bb43183173264460228c72f3837298dad79bfd64bd1abb091.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) মানোন্নয়ন পরীক্ষার ৫০০০ টাকা জরিমানাসহ ফরম পূরণের ফি জমা (সংশোধিত).pdf and ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) F গ্রেড ও মানোন্নয়ন পরীক্ষার ফরম পূরণের টাকা জমার বিজ্ঞপ্তি (সংশোধিত)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67460ec1e58fb140173264454528c72f3837298dad79bfd64bd1abb091.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) মানোন্নয়ন পরীক্ষার ৫০০০ টাকা জরিমানাসহ ফরম পূরণের ফি জমা (সংশোধিত).pdf and ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) F গ্রেড ও মানোন্নয়ন পরীক্ষার ফরম পূরণের টাকা জমার বিজ্ঞপ্তি (সংশোধিত)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67460ea1a8de975173264451328c72f3837298dad79bfd64bd1abb091.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ, দ্বাদশ ও অনার্স-মাস্টার্স শ্রেণির শিক্ষার্থীদের অভ্যন্তরীণ ক্রীড়া প্রতিযোগিতা-২০২৪ বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674576b06fcec2371732605616d1ec0cbe1136b7586befdf6e0ba66711.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-26
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) নিয়মিত অনিয়মিত ও মানোন্নয়ন পরীক্ষার ফরম পূরণ এরং টাকা জমার বিজ্ঞপ্তি.pdf and ২০২৩ সালের মাস্টার্স ফাইনাল পরীক্ষার ফলোন্নয়ন ফি জমার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6744b4ce5fb6180317325559822a002237a1ac7af74c6d3c801674fb4b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) নিয়মিত অনিয়মিত ও মানোন্নয়ন পরীক্ষার ফরম পূরণ এরং টাকা জমার বিজ্ঞপ্তি.pdf and ২০২৩ সালের মাস্টার্স ফাইনাল পরীক্ষার ফলোন্নয়ন ফি জমার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6744b493f09f7133917325559232a002237a1ac7af74c6d3c801674fb4b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) নিয়মিত অনিয়মিত ও মানোন্নয়ন পরীক্ষার ফরম পূরণ এরং টাকা জমার বিজ্ঞপ্তি.pdf and ২০২৩ সালের মাস্টার্স ফাইনাল পরীক্ষার ফলোন্নয়ন ফি জমার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6744b46913ff0209917325558812a002237a1ac7af74c6d3c801674fb4b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২২ সনের মাস্টার্স শেষপর্ব (বিশেষ) নিয়মিত অনিয়মিত ও মানোন্নয়ন পরীক্ষার ফরম পূরণ এরং টাকা জমার বিজ্ঞপ্তি.pdf and ২০২৩ সালের মাস্টার্স ফাইনাল পরীক্ষার ফলোন্নয়ন ফি জমার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6744b44f718da101117325558552a002237a1ac7af74c6d3c801674fb4b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের অনার্স ৪র্থ বর্ষ পরীক্ষা স্থগিতের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6744b3fda199d24101732555773f4b48395c0191c007a8afc938f81eb6a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অনার্স ১ম বর্ষ পরীক্ষা-২০২৩ উপলক্ষে উচ্চমাধ্যমিক, অনার্স ও মাস্টার্স ক্লাসসমূহের সময় পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/674282197d066240817324119291a08eb88fd31760528c5ac0ab4cd539e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-23
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের মাস্টার্স শেষপর্ব পরীক্ষার ফরম পূরণ এবং ফি জমাদানের বিজ্ঞপ্তি (সংশোধিত)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/673db7cda8b3e198317320979974d21c40432813595d9cf3a63298929d4.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের মাস্টার্স শেষপর্ব পরীক্ষার ফরম পূরণ এবং ফি জমাদানের বিজ্ঞপ্তি (সংশোধিত)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/673db7a46e154315817320979564d21c40432813595d9cf3a63298929d4.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ছাত্রদের উদ্দেশ্যে বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/673db3223c2f5282917320968024e6102d7cf54b41c6b91f393fa2350e4.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অভ্যন্তরীণ ক্রীড়া প্রতিযোগিতা-২০২৪ এ অংশগ্রহণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/673c3f860a5913206173200167023dcbab91ac0620ce91969d9904794d0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI Special Evaluation (SE) Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6735b928778b4157017315740565e2e4b1761a79ab5b00e513d067e52cf.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Mst. Hasina Akter
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/673426ad91f6c66173147102172ee56b2418d90ca6c436edb1d7d11e0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-13
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অনার্স পরীক্ষা চলাকালীন উচ্চমাধ্যমিক, অনার্স ও মাস্টার্স শ্রেণির ক্লাসের সময়সূচি সংক্রান্ত নোটিশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6731f62f7182c14401731327535afae81bad5df509752d3f9ec80c29098.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Monzura Mostofa
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/673085af2af5033041731233199a039b62d78b64d691b9e0dae01759db5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Aklima
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67305e51c43d0191817312231217351a9ca8400e1955fd1d396c397f48b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ ও অনার্স শ্রেণির বোর্ড বৃত্তি সংক্রান্ত সংশোধিত জরুরি বিজ্ঞপ্তি এবং রিপোর্ট
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67304a8bca05e253117312180599c6a30615b89689571632c0ca80c3a0c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ ও অনার্স শ্রেণির বোর্ড বৃত্তি সংক্রান্ত সংশোধিত জরুরি বিজ্ঞপ্তি এবং রিপোর্ট
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67304a38babdc134017312179769c6a30615b89689571632c0ca80c3a0c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-11-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ICT Admission Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6723474e6957a6501730365262Botany.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-31
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6721b4af951dc13511730262191Botany.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI &amp; XII CT-1 Result Published
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6720bff83989c19171730199544ec299d174294f55e7b8967b3be42aa67.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Practical class routine for class Xi
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/671fc938428c422921730136376a1773b82ac674c8d7e2426a41d586359.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-28
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Tania Tasmin
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/671d04728be0928201729954930f1dee1c2cb80a8686dc4fea06da51c0f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-26
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চ মাধ্যমিক সার্টিফিকেট পরীক্ষা-২০২৪ এ অংশগ্রহণকারী পরীক্ষার্থীদের ফি ফেরত প্রদানের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/671a83a4f2c6931771729790884aa1a82766615c1414badbc212ad2aa9c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Attendance Notice For Class XII &amp; XII
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6717775344dfa11481729591123c8dac0c13862d774ee3dfe951aae55a5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Xi &amp; Xii students
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6714f786dfc1165817294273349b7250b4e4ca19167eaf680572cb4d5a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Xi &amp; Xii students
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6714f6c6d547a13517294271429b7250b4e4ca19167eaf680572cb4d5a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Xi &amp; Xii students
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6714f65a2be1f208317294270349b7250b4e4ca19167eaf680572cb4d5a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এইচ.এস.সি ফলাফল-২০২৪ প্রকাশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67124eb90ba086191729253049a9cd24be512bc4e05df81569d2748dd8.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           শিক্ষার্থীদের ফরম পূরণ পাসওয়ার্ড ও অন্যান্য সমস্যা সংক্রান্ত বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67124e882282f3801729253000193f535d662ef46306e37083a8f59a25.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           আন্ডার গ্রাজুয়েট প্রোগ্রাম সম্মান ১ম বর্ষ (২০২৩-২৪) এর ক্লাস রুটিন
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6710aa34e8fb84911729145396English.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের অনার্স ১ম,২য় বর্ষ এবং ৩য় বর্ষ নিয়মিত, অনিয়মিত ও মানোয়ন্নন জরিমানাসহ ফর্ম পূরণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/670d9c74195eb13081728945268b50ad05dc6d80ec6c198207b53c686f5.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Md. Aktaruzzaman
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6706567a808a214601728468602c9ef2eeefba02400bf3edab259527b43.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Pattayan Patra Adnan Hossain Dhaka College, Dhaka
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6706561098f1d31241728468496ecca06275c4f4e9217df463863243434.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC - উম্মেহানী আক্তার
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/670625bdbd55513441728456125d4f62444edf4bfb2fb21bc75a72e1363.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের অনার্স ১ম বর্ষ, ২য় বর্ষ, ৩য় বর্ষ ও ৪র্থ বর্ষের পূরণ পূরণের সময়সীমা বৃদ্ধির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6705992f61c6f22251728420143cfcac1d687cb5b4d6ea0f3af88888ccb.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/670567605f78223691728407392274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বোর্ডবৃত্তির তথ্য ফরম
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6703ea2ce180517271728309804English.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অনার্স ২০২৩-২০২৪ শিক্ষাবর্ষের বোর্ডবৃত্তি সংক্রান্ত বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6703ea04af65a12531728309764English.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ঢাকা কলেজ ইংরেজি বিভাগের আন্ডার গ্রাজুয়েট প্রোগ্রাম (সম্মান ১ম বর্ষ) ভর্তি (২০২৩-২৪) নোটিশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/67003f134fdc643191728069395English.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-05
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ ও দ্বাদশ শ্র্রেণির পরীক্ষার প্রবেশপত্র ডাউনলোড সংক্রান্ত নোটিশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66fcf63270ffb301317278541306b7aaa22dd04880b1e718bdc09404bdf.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           দ্বাদশ শ্রেণির শিক্ষাবর্ষ (২০২৩-২০২৪) সেশন ফি জমাদানের বিজ্ঞপ্তি.pdf and দ্বাদশ শ্রেণি সেশন ফি এর হিসাব শিক্ষাবর্ষ ২০২৩-২০২৪.
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66fccd474008016791727843655d2cf2ff9033f65ebd23e87aee9222bbe.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           দ্বাদশ শ্রেণির শিক্ষাবর্ষ (২০২৩-২০২৪) সেশন ফি জমাদানের বিজ্ঞপ্তি.pdf and দ্বাদশ শ্রেণি সেশন ফি এর হিসাব শিক্ষাবর্ষ ২০২৩-২০২৪.
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66fccd28ee2ca17241727843624d2cf2ff9033f65ebd23e87aee9222bbe.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           কোহিনুর আক্তার NOC
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66fbbdc94774126051727774153da9ee97102359f43ae7bbbbef77d07cf.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Bellal Hossain
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66fbbd95929a4312517277741017ea81127fc8c2be854c470c380b34c27.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HSC Registration Update List (30 September 2024) Session 2024-2025.pdf
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66faee555c799927172772104596c02b681c2782b72221c55eef7a48c8.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-10-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice For Class XI &amp; XII
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66fa8a9b50e1837117276955157c3682110f22914aa7187c0d4788e516.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII CT-1 New Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66fa86e5543ba2620172769456535bbc4df30b5d6e256c70f8e30fe95fc.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           test
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f8f97715a8c4401727592823Physics.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC-পরিমল কুমার বিশ্বাস
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f8322de652216011727541805346aa9dc93ef7336fab72b0e12cb8b91.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-28
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC-Mohammad Sydur Rahman
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f8fcfeeb3a4111517275937268b054f1a9d34f5e390be23b4bbbdc466.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-28
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Md. Selim Khan
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f4e89f3ceb421711727326367d7eec11893427092e45b3f6fa34a39d5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-26
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2023-2024) Guardian Meeting with Principal
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f401a0bdce233017272672327c71feb95fc6ebd5124d7f97437f9910.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সালের ৪র্থ বর্ষ অনার্স পরীক্ষার ফি এর আংশিক সংশোধনীর
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f3fe0037fbb18181727266304ac8f7d0be40f556c6e0de01b44e5c4ab.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII Academic Calendar
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f377a01170d2229172723190446f77bb178fb4eff61aefd3d628b0f1d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষাবর্ষ ২০২৪-২০২৫ রেজিস্ট্রেশন সংক্রান্ত বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f2e67e3270c268172719475032ca050bc4327b7ae12e7862ddf92b3b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI  Academic Calendar
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f2b1e553b992296172718128595e2bb75eb7ebac0088e76d4be725b6c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HSC Registration List Session (2024-2025)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f2ab6a2e06e267817271796268e90895bb9d0cc493c47720824ad85bc.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সালের অনার্স ৪র্থ বর্ষ পরীক্ষার ফি এর অংশিক সংশোধনী
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f2aa6b69d645161727179371796f39d92e253796bbb592b8f6e19845.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC:আদনান হোসেন
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f26d680210312451727163752d1e110ed6d2b13cd057af708e410152a.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2023-2024) CT-1 Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f17d16e866d5501727102230fc113a18df2ec9798010d9c94190ba6f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-23
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2024-2025) CT-1 Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f17c8bb3dce2343172710209106bde35521353b3f98e243bf84738eaa.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-23
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের অনার্স  ১ম বর্ষ পরীক্ষার ফর্ম পূরণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f08c0f1f7b3178717270405273150c328a114160f430ed28218b68359.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সালের অনার্স ৪র্থ বর্ষের ফর্ম ফিলাপের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f08bb86cfd13171172704044062d3795fbc24f67aea200f1841b5b7d5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Abu Saleh Md. Muzahidul Islam
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66f08a80e2942244317270401280c2c6d6099951d0d5adad54a480ad77a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-23
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Mst. Ummahani Akter
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66efe4dec4e85105117269977261297142265149008feb19bbb0e4b9dc2.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩-২০২৪ শিক্ষাবর্ষের দ্বাদশ শ্রেণির ছাড়পত্রের কার্যক্রমের সময়সীমা বৃদ্ধির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66efe2d8d9fbd24451726997208089f9a68bea986930dfb548a61e8d4cd.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩ সনের অনার্স ৩য় বর্ষ পরীক্ষার ফর্ম পূরণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66efde7442b7622191726996084f06afeaadf64892edc774b50c858995c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Class XII (2023-2024) XI Annual Exam Postponed And Class Continuing Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ebce5f0920d131172672982353ba5a562ad9098e07e361a23d6796a0.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বোর্ড বৃত্তির সংক্রান্ত জরুরি বিজ্ঞপ্তি এবং বোর্ড বৃত্তির জন্য তথ্য ফরম
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ebb29db50de203117267227179416d40f7592559ea5e3cf545a9882c2.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বোর্ড বৃত্তির সংক্রান্ত জরুরি বিজ্ঞপ্তি.pdf and বোর্ড বৃত্তির জন্য তথ্য ফরম
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ebb2580fc33263917267226483c058a214d44fde1c2ab48932b7d029a.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2023 -2024) Student`s XI Annual Exam Seat Plan
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ea76b7d904d195017266418473e1568b5f58f7f7e396d4f421f82fb14.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023 - 2024) Annual Exam Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66e9429c2a8a217771726562972189e9ae27064470cb2d3a45468b3a8fd.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66e799a0194fb31641726454176274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           পবিত্র ঈদে মিলাদুন্নবী (সা.) উদ্যাপন-২০২৪ উপলক্ষ্যে কুইজ প্রতিযোগিতার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66e2b5eb50130289517261337391455db03aa99da5475777f74226f7557.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Mohammad Saydur Rahman
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66e12a727352614451726032498f79ef448f2b65c3c1d5f26474ff819dc.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ এবং দ্বাদশ শ্রেণির ক্লাস বন্ধের বিজ্ঞপ্ত
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66e037d86df5d18791725970392ccf091b1cefe1616a72c89309ea0929e.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Parimol Kumar Bisswas
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66deff72dc1aa23631725890418d505d58b03782773948fc3d416cc85e1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Md. Akturuzzaman
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66deff3c48d033257172589036491969f23d693cac71e2ab7665472c44e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66d7042b62c2432231725367339274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ছাত্রাবাসে সিট বরাদ্দের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66d411f81b61623041725174264ef28e4f523ef2e6baa1cb307fcd18570.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-09-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৩-২৪ শিক্ষাবর্ষে দ্বাদশ শ্রেণির অনলাইন টিসি ও বিষয় পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66d008f6bca4d8071724909814b399e87e06366e730625092b7f85952d.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অফিস আদেশ- ড. মো. মোমেনুল ইসলাম
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66cfce9ad487316401724894874909c595af7f2413f74a8476045ec1214.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2024-2025 শিক্ষাবর্ষে একাদশ শ্রেণিতে অনলাইনের মাধ্যমে কলেজে ভর্তির সময়সীমা পুনরায় বৃদ্ধি প্রসঙ্গে।
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66cf3403bee8222061724855299c1c0ed261622d2a8f1ebf04004ca84bc.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-28
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৪-২০২৫ শিক্ষাবর্ষে একাদশ শ্রেণিতে সর্বশেষ ৪র্থ পর্যায়ে অনলাইনের মাধ্যমে ভর্তির নিশ্চায়ন ও কলেজে ভর্তির সময়সীমা বৃদ্ধি প্রসঙ্গে
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66cd54c4c3b2818341724732612997be58faf234c339a5ef84adaef6563.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Dhaka College | Biometric attendance time schedule for HSC26(Session:2024-25)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ccba613e63d22431724693089417087275666a7119f7ffc88224ccada.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-26
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66cadd4897ad532691724570952274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ৪র্থ পর্যায়ে একাদশ শ্রেণিতে ভর্তি  বিজ্ঞপ্তি (শিক্ষাবর্ষ 2024-2025)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ca16bdb8a4226551724520125b09da4e58b82f5e682d8d8ca0e03d6e1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Noc, Irin Pervin
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c747aeb4de627151724336046061cd4a38ba9d4c225c08d8a43050c42.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Dr. Dillur Rahman
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c32313217602333172406453178821194e76aa21cf2ca18bceaf4a055.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII Class (2023-2024) Class Routine Notice + Class Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c30d1dd3bd359517240589097b95e86bbcee2c4efc1c888b8a55698d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII Class (2023-2024) Class Routine Notice + Class Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c30cfb1f91416617240588757b95e86bbcee2c4efc1c888b8a55698d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ৪র্থ পর্যায়ে একাদশ শ্রেণিতে ভর্তি বিজ্ঞপ্তি (শিক্ষাবর্ষ 2024-2025)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c1a860927fa15781723967584117cf0a3eea22fc644c23220a4c2f73f.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৪-২০২৫ শিক্ষাবর্ষে একাদশ শ্রেণির ভর্তি ফরম সংশোধনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c1a2f80bddc19661723966200ee51d140c5fbc5fe278bad4eeaa21913.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI Biometric Attendance Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c175784e5d926401723954552a939b355f90f37e101e7de05b23dad5a.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI Biometric Attendance Notice + XI Class Routine 2024-2025 Running
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c07db74a1856421723891127e0d2906cb13c906836f8eabbf61af8b7.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI Biometric Attendance Notice + XI Class Routine 2024-2025 Running
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c07d07872ba20691723890951e0d2906cb13c906836f8eabbf61af8b7.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির ছাত্রদের ক্লাস রুমের অবস্থান নির্দেশক ম্যাপ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66c07bff0406c29371723890687fd1fab4a0f0bb42f2a49517d4661e8b1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণি (সেশন ২০২৪-২৫) মানবিক ও ব্যবসায় বিভাগের রুটিন
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66bf38148439712241723807764897fcb4f50658653a2c4ee03a0526bce.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণি (সেশন ২০২৪-২৫) বিজ্ঞান বিভাগের রুটিন
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66bf37887284f562172380762464da6e08b48ea1eafa440c713be646ef.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৪-২০২৫ শিক্ষাবর্ষে একদশ শ্রেণিতে ভর্তিকৃত শিক্ষার্থীদের ক্লাসে উপস্থিত হওয়ার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66bf36bfe7200885172380742397622ae074495a5cb36fa11ed2523e94.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Sabina Tajmin Sumki
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66bc40360ca1b2701723613238ed64187c92928ec243bb466d5b2fb7be.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অনিবার্যকারণ বশতঃ একাডেমিক কাউন্সিলের সভা স্থগিত এর বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66b77e6ce358113951723301484fdb2cafb3a3322ac5a420da66e4a2c56.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বিজ্ঞপ্তি ০৯ আগস্ট ২০২৪
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66b705aa327cd1281723270570962f883e53691828c48c79f34e131417.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বিজ্ঞপ্তি ০৯ আগস্ট ২০২৪
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66b70567969dd32981723270503962f883e53691828c48c79f34e131417.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Selina Momotaz
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66b47c5d645c813021723104349f0a9fc823864d17ac7117a93985644ce.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Jesmin Sultana
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66b47c379955330971723104311f92a3e70d81055f5e8fb852f8224f717.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৪-২০২৫ শিক্ষাবর্ষে একাদশ শ্রেণির ক্লাস শুরু বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66b36af3961b77741723034355b569a9598edc9b48bbc00161057f98bc.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Online class routine for class XII
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ab779e66c7115681722513310976649408cf735e52cf9f9dfde066686.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Online class routine for class Xi
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ab77550a4da294117225132372b6b1c772de2a02309fa4d30aaa97674.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৪-২০২৫ শিক্ষাবর্ষে একাদশ শ্রেণির ভর্তির সময়সীমা বৃদ্ধি ও ক্লাস শুরুর বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ab76efd1bb319117225131353273da61295fcd5d6eb477db2c500bb5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Trinat Singh
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ab760a7c6dd155172251290636911f67083aae72a0a301fe77cdab06.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Trinat Singh
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ab7603a2b1c149172251289936911f67083aae72a0a301fe77cdab06.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           জাতীয় শোক দিবস 2024 উপলক্ষ্যে প্রতিপাদ্য কর্মসূচির অংশ হিসেবে মাসব্যাপী কালো ব্যাজ ধারণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66ab756ca5a3d30291722512748fd4559f0ebd4bb4bbd2222a058a995e0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-08-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Dr Erom Jahan
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66a89a4a70ce4238217223255781e9897f29daae0ab92e3a99ceee28947.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৪-২০২৫ শিক্ষাবর্ষে একাদশ শ্রেণির ভর্তির সময়সীমা বৃদ্ধি ও ক্লাস শুরুর বিজ্ঞপ্তি.pdf
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66a232d738a2d18301721905879ffefaa92f6918c320f61854fc15ffc2f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Soak barta
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6698bc7b56cca12501721285755039f7686492cafb3e24a379bbd0db3d1.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           জাতীয় শোক দিবস 2024 উপলক্ষে আমার চোখে বঙ্গবন্ধু বিষয়ে এক মিনিট ব্যাপী ভিডিও চিত্র তৈরির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66978395c54888261721205653b34479dd58d53decb226141bdced4bd5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           সকল শিক্ষা কার্যক্রম এবং আবাসিক হোস্টেলসমূহ বন্ধ ঘোষণার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66977e474771824971721204295f226253171cceab23be0cbd7cc390aa7.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6695e0bcd550b7511721098428274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এটি ঢাকা কলেজের কোন অফিসিয়াল পেইজ নয়। এটির সঙ্গে ঢাকা কলেজের কোন সম্পৃক্ততা নেই।
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66953f16deff831861721057046fa992d313fd5bd56913a4a9323029025.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Ruhul Momin
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6693578c4ceda20841720932236cc50e82c4edb20e9ea70c7d0d3fd8d71.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২০২৪-২৫ শিক্ষাবর্ষে একাদশ শ্রেণির ভর্তি বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6690012d61e5812101720713517ac087785f74bd941c0565106042b7b42.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Runa Nasrin
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/668e48495779f30171720600649cd3a08d38745771d1c979d7fb6f34000.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023-2024) Special Annul Exam Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/668e2a9fc5229313817205930552c243e8086fd13530518441cf18bac1a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Runa Laila
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/668e2a1b9d86c129817205929235f97d5e64167f2e1855a50ae91e7307e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/668a1fe174a4132931720328161274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ ও দ্বাদশ শ্রেণির UCB অনলাইন কুইজ প্রতিযোগিতার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66863f24f3a47332017200740207d940013d52b84e517a32ad7404b8b62.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ ও দ্বাদশ শ্রেণির UCB অনলাইন কুইজ প্রতিযোগিতার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66863da90a440148017200736417d940013d52b84e517a32ad7404b8b62.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           শোক বার্তা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66837708b60181496171989172095606dae47d7ebc9c9f918712382341e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-07-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Rasheda Akter Gazi
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/668134d52cc5030941719743701511ee2cf17e3160f016c19106e72e5ea.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023-2024) Annual Unfit Students Class Routine &amp; Roll No.
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6681064634f2615941719731782ad7d8644c179d226a17c0ff737ad2abd.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023-2024) Annual Unfit Students Class Routine &amp; Roll No.
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6681061b49f1810921719731739ad7d8644c179d226a17c0ff737ad2abd.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice For Class XI Students
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/667d33190789920961719481113043738acf99f9aaac794df4d41011dd5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চমাধ্যমিক ২০২৪ এর পরীক্ষার্থীদের পরীক্ষা কেন্দ্রে যাতায়াতের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/667d2694b288510621719477908117762525e3b69a8ace2932728ddaf96.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ (2023-2024) এর সিটি-3 এর ফলাফল প্রকাশের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/667c00c4abb927691719402692fdb311579653584849d65c9a81d1328e.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-26
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Room Change Notice for class Xi (2023-2024)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66794fbc534a743717192263001f5be77f0afb353ae3f260f71ba70f6f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           হাটহাজারী উপজেলার স্থায়ী অধিবাসী মেধাবী শিক্ষার্থীদের মাসিক শিক্ষাবৃত্তি এবং বার্ষিক অনুদান প্রাপ্তির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66794ec7344e614111719226055bc169ef809edab395d8a944eb0f76576.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ এবং দ্বাদশ শ্রেণির শিক্ষার্থীদের জন্য অনলাইন কুইজের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/667696579c406272017190477676ada1264e64ead927e7fdc63895244d9.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ এবং দ্বাদশ শ্রেণির শিক্ষার্থীদের জন্য অনলাইন কুইজের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/667696ed67779318417190479176ada1264e64ead927e7fdc63895244d9.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ এবং দ্বাদশ শ্রেণির শিক্ষার্থীদের জন্য অনলাইন কুইজের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6676957952066115817190475456ada1264e64ead927e7fdc63895244d9.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Hafiza Sultana
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66695c4c050cc8681718180940813eff5633a183ab2c856ded00ee2e07.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/666929b4ae47b6191718167988274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চমাধ্যমিক পরীক্ষা-2024 প্রবেশপত্র বিতরণ বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/666917056945b2012171816320580165d3bf10924e50df4471eaf66a61d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI Annul Exam Routine for Class Xi (2023-2024)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6667edc0709ac217817180871046a873b652e10a5f90d5d042535b49503.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6667e6eee7d9622931718085358ddf1be291bfb91ca2fb2c446c38f104c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6667e6b2319b61281718085298ddf1be291bfb91ca2fb2c446c38f104c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Ruhul Momin
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/666580c47f88a22821717928132cc50e82c4edb20e9ea70c7d0d3fd8d71.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ঐতিহাসিক 6 দফা দিবস 2024 উপলক্ষে চিত্রকর্ম ও কবিতা স্বহস্তে লিখে জমাদানের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66657b37f41c615921717926711f7fddf1fbcc35c3db37535e09a39bdd5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           শোকবার্তা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66645dcaae12d18871717853642cada477b344f4e831dbc7c493ce4e23a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ভোটরদের জন্য অত্যাবশ্যকীয় নির্দেশনা ভোটকেন্দ্র ঢাকা কলেজ, ঢাক
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66645d875b29626781717853575affc4573c2abaa1b902bbaaa1c55746f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Ahamed Karim
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6661c52342e8f635171768349172d748a33a85f1f0f95a66eae2b80bad.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-06
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বিশ্ব পরিবেশ দিবস(০৫ জুন ২০২৪)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/665f3e0f97eb223891717517839852e5e56dc4de2987f9b98b4947ea360.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI ( 2023 - 2024) Class Room Changing Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/665e8592c84ce4361717470610687171d2274f86fc717697eaf6247fe4.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অনার্স দ্বিতীয় বর্ষ পরীক্ষার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/665bfd222501a17741717304610642b3c8269751659f5b6ba52051f6d4c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-06-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI CT-3 Changing Exam Date Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6656beffa4b6c1631716961023b244881cbeed890c87ef142eea3898f9.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Permission letter-International Mathematical Olympiad
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6656bbdfc0cd79701716960223a7549492d5866ab7e273fd94c085d6ec.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC ফেরদাউস রহমান
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6656b8a3b917a17741716959395828cf38e3a8a916bc5580075a0051117.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Nazmun Khatun
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6656a43c15f1169017169541724090439ab0155a8e9cf26906edd95e30.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বৈরি আবহাওয়ার কারণে আগামী ২৮-০৫-২৪ তারিখের CT-3  পরীক্ষা স্থগিত থাকবে।
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6654776640e7b292817168116229add890a4b6eb85e24f283eac00af651.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           শোক বার্তা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/665325210c9f6962171672502595606dae47d7ebc9c9f918712382341e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-26
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CT - 3 New Permitted Student`s List
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6652f4c8b7ce6135217167126485f35aedbc4028307a5227ed2b1a4ed09.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-26
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Fardous Rahman
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66505620973ad32021716540960b09d23f4f0909e5007d0c886215a191f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for A K M Elius
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/665055d835b47246117165408885656d4cdd0514635036e10b991918e7a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/664c80362f46428541716289590274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণিতে ভর্তির বিজ্ঞপ্তি (2024-2025)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/664a0ee95b3de68317161295136c208924bfeed7d6d29f7b9e4a75a32a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Class XI Room Changing Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/664a0e876bf37163917161294157936c530cd7beed09d6b19ea4b538a04.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Honour's 2nd Year From fill up notice with fees
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/664a0e4b673f8940171612935557dfc7b166d84b5af3b8e5260ee75e82.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Honour's 2nd Year From fill up notice with fees
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/664a0d801b22f1993171612915257dfc7b166d84b5af3b8e5260ee75e82.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Honour's 2nd Year From fill up notice with fees
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/664a0d4fc440a2247171612910357dfc7b166d84b5af3b8e5260ee75e82.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Honour's 1st Year From fill up notice with fees
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/664a0cac055c426581716128940c28c3006f42771878e0e936d465f6ca9.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Honour's 1st Yearr From fill up notice with fees
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/664a0c76f0c423281716128886cecbda5dbdf730c3859d721cc0c78ea5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Honour's 1st Year  From fill up notice with fees
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/664a0c49eb1298591716128841237d0204c51a1e26422dae90f6124412.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চ মাধ্যমিক পরীক্ষা 2024 এর ফরম পূরনকৃত পরীক্ষার্থীদের তালিকা ও বিজ্ঞপ্তি .pdf
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66486a444c3ea320917160218284f18ed186d2d1377b516094f3fb2a44b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023-2024) Half yearly Result Published
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6647afb30b85623701715974067123090774fecd47f1e0949a47f5bbb7a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI CT-3 Routine + Class Room Changing Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6647af342f4613551715973940f1da4a68eca80728c7d9e27f565bc52b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI CT-3 Routine + Class Room Changing Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6647aec626e0926981715973830f1da4a68eca80728c7d9e27f565bc52b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Dr. Nazmun Khatun
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6647ae06896db17901715973638efdcdce8ce31829ff31afdd83d406b94.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এইচএসসি পরীক্ষা-2024 এর ফরম পূরণের সময় বর্ধিতকরণ বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66433d923cce721817156827062e4a9b7e447f13ab545c800c2ea0e4cf.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এইচএসসি পরীক্ষা-2024 এর ফরম পূরণের সময় বর্ধিতকরণ বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66433d6c787c7202517156826682e4a9b7e447f13ab545c800c2ea0e4cf.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice For Class XI
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66433cfeba25c28741715682558c01cdba8fb4510eff7dbbaf14a267d76.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-14
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023-2024) Ct-3 &amp; Annual Exam Date
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/663b6e69226a2119017151709213d66b4c435964b9ad24fabbcc95d041e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Masuma
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/663b6e17521f515571715170839fe2919cef1c5c09300fb4ee02811b3a0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Soniya
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/663b6da3be26133231715170723c412b017ee0e35be95d362883d9c2202.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Nusrat Jahan.jpg
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/663b6c7711bf712381715170423497b5df47eb4c27e0ac9282ac7c9825b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Nusrat Jahan.jpg
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/663b6c000d25932191715170304497b5df47eb4c27e0ac9282ac7c9825b.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এইচএসসি পরীক্ষা 2024 এর ফরম পূরণের সময় বর্ধিতকরণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/663b6abfe9b13146217151699832a83507d8cd193466d5971346a7865b3.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Md. Faruk Ahmed
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6637d58c44d942750171493518024130db856ca96bdd3e2b26a272adf4e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-06
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চমাধ্যমিক 2024 সালের (নিয়মিত ও অনিয়মিত) পরীক্ষার্থীদের ফরম পূরণের তালিকা 05/05/2024 খ্রি. তারিখ পর্যন্ত।
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6637d4e3e4e5210431714935011cae802010d911fd8221780c5db72d97b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-06
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চমাধ্যমিক 2024 সালের (নিয়মিত ও অনিয়মিত) পরীক্ষার্থীদের ফরম পূরণের তালিকা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6633c68cd604129061714669196135f7c5630dac16c5eae77efeaaacee1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023-2024) CT-3 &amp; Annual Exam Date
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6633a4fd5828627591714660605828a313dba6d414410af3fc5c8aed752.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চমাধ্যমিক পরীক্ষা ২০২৪ এর পরীক্ষার্থীদের তালিকা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6633a468476a229891714660456bb9cd5332d289705ded8e27791732cd1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-05-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           মাস্টার্স শেষপর্ব ভর্তি শিক্ষাবর্ষ 2022-2023.pdf এবং টাকা জমার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66309921abd252405171446096148dd18504715d17c21d15a1a80bd747d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           মাস্টার্স শেষপর্ব ভর্তি শিক্ষাবর্ষ 2022-2023.pdf এবং টাকা জমার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/663099067bd6d2857171446093448dd18504715d17c21d15a1a80bd747d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66309895dddb73841714460821274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এতদ্বারা একাদশ, অনার্স, মাস্টার্স শ্রণির ছাএদের অবগতির জন্য জানানো যাচ্ছে যে,তাপমাত্রা অধিক বৃদ্ধি পাওয়ায় সতর্কতার জন্য আগামীকাল ৩০/৪/২৪  তারিখ  সকল ক্লাস স্হগিত থাকবে।( শিক্ষা মন্রনালয় ও মাউশির নির্দেশনা মোতাবেক)। অফিস খোলা থাকবে। অধ্যক্ষ ঢাকা কলেজ,ঢাকা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/662f9015508b9137117143931097fadb2d92f260b03f6b44c00cdf3a584.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এতদ্বারা একাদশ, অনার্স, মাস্টার্স শ্রণির ছাএদের অবগতির জন্য জানানো যাচ্ছে যে,তাপমাত্রা অধিক বৃদ্ধি পাওয়ায় সতর্কতার জন্য আগামীকাল ২৯/৪/২৪ তারিখ  সকল ক্লাস স্হগিত থাকবে।আগামী ৩০/৪/২৪ তারিখ থেকে যথারীতি ক্লাস চলবে( শিক্ষা মন্রনালয় ও মাউশির নির্দেশনা মোতাবেক)। অফিস খোলা থাকবে। অধ্যক্ষ ঢাকা কলেজ,ঢাকা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/662e789b40eeb14091714321563d17220a0659027f9da284aa3d5fee811.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-28
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ 2023-2024 ও দ্বাদশ 2022-2023 উপবৃত্তির হিসাবনম্বর পরিবর্তনের বিজ্ঞপ্তি | বি:দ্র: নিম্নোক্ত লিঙ্কটি কপি করে ব্রাউজারের অ্যাড্রেস বারে পেস্ট করে প্রসিড করুন | https://drive.google.com/drive/folders/1rRcELx9xWJczTqoqACLHY1jO5VBQemKM
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/662a8a5ab453f11901714063962161f23e8e774a954d18e0153a0bd0d38.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বোর্ড বৃত্তির টাকা প্রাপ্তি সংক্রান্ত জরুরি বিজ্ঞপ্তি।বি:দ্র: নিম্নোক্ত লিঙ্কটি কপি করে ব্রাউজারের অ্যাড্রেস বারে পেস্ট করে প্রসিড করুন এবং Board Scholarship Payment Status Report দেখে নিন  https://drive.google.com/file/d/1rWbiYJs99UPnyH7w3RuUq8jnhZ1VE_on/view?usp=drivesdk
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6629de6c8bff98361714019948a513b4d77d4bd7b5515e241388293045.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এইচএসসি পরীক্ষা 2024 এর ফরম পূরণের সময় বর্ধিতকরণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/662618e47ee4c44617137727722a83507d8cd193466d5971346a7865b3.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এইচএসসি পরীক্ষা 2024 এর ফরম পূরণের সময় বর্ধিতকরণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/662618e1c0504151717137727692a83507d8cd193466d5971346a7865b3.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           এতদ্বারা একাদশ, অনার্স, মাস্টার্স শ্রণির ছাএদের অবগতির জন্য জানানো যাচ্ছে যে,তাপমাত্রা অধিক বৃদ্ধি পাওয়ায় সতর্কতার জন্য আগামীকাল ২১/৪/২৪ তারিখ হতে ২৭/৪/২৪ পর্যন্ত সকল ক্লাস স্হগিত থাকবে
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6623bc9ac1dc026331713618074ec1ba1a221979cefaeaf9bf1956bafe6.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Ferdousi Hoque
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6620eeee190d0249517134343505d3fc8cb509cae9ee8a01280a48a595a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           17 এপ্রিল ঐতিহাসিক মুজিবনগর দিবস-2024 উপলক্ষে বঙ্গবন্ধুর প্রতিকৃতিতে শ্রদ্ধা নিবেদনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/661e84185f93b178817132759286d644637d79649482c4c47b16a7e4527.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           দ্বাদশ শ্রেণির (শিক্ষাবর্ষ 2022-2023) শিক্ষার্থীদের অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/661e2574cc2d61989171325170098e0963c674dfce371d27729f60661a3.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চ মাধ্যমিক পরীক্ষার্থী 2024 (শিক্ষাবর্ষ 2022-2023) রেজিষ্ট্রেশন কার্ড বিতরণের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/661e251c537bc25951713251612c325716b16d33f535c6ebb029fd38913.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2024 সালের উচ্চ মাধ্যমিক শ্রেণির বিজ্ঞান, মানবিক ও ব্যবসায় শিক্ষা শাখার শিক্ষার্থীদের ফরম পূরণ ও সেশন ফি জমা দানের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/661e24cc9b43e8791713251532cd3338287984b11936c3a049c089f264.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বর্ষবরণ বিজ্ঞপ্তি-১৪৩১
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66150d21bd8b516201712655649854da9b094b6d0b805f54bcd1f6e5a5c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বর্ষবরণ বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66150cb0532a212811712655536c06d46f043316204fe8f1f1127c926d9.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-04-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice For Class XII &amp; XII
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6603ea5f062047991711532639be1d3843ba5aede29a286afdd3ed0e4c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Correction Notice for Class Suspend.pdf
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66025928e461713701711429928878c664f5a373a56b1c51d0dd6998311.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-26
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2022 সনের 3য় বর্ষ অনার্স (পুরাতন সিলেবাস) অনিয়মিত ও মানোন্নয়ন ফরম পূরণের আংশিক সংশোধিত বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6601234b09bfb32517113506035c0880c069ae1bddfc0ed36197cb9433.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষার্থীদের (2023-2024 শিক্ষাবর্ষ) ভর্তি বাতিল, অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/660122b34c85d18151711350451c9efb373b907eb0f3c916c89e842ff6d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষার্থীদের (2023-2024 শিক্ষাবর্ষ) ভর্তি বাতিল, অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66012294bcbc527091711350420c9efb373b907eb0f3c916c89e842ff6d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2022-23) test (Special) Practical Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/660122555c9f12822171135035796ef04dec2f16f19f131eb971e0161b2.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2022-23) Test (Special) Practical Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/66012217ab624120817113502955bf0e9e6c649530cad7c837dd80121b4.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2022 সনের 3য় বর্ষ অনার্স (পুরাতন সিলেবাস) অনিয়মিত ও মানোন্নয়ন ফরম পূরণের আংশিক সংশোধিত বিজ্ঞপ্তি.pdf
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65fd077d135e315181711081341de3151894b78d158d2a23f483905d286.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ঢাকা কলেজে একাদশ শ্রেণির শিক্ষার্থীদের বিভিন্ন ছাত্রাবাসে সিট বরাদ্দের ফলাফল.pdf
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65fd06e46eb5920731711081188957276aba54d6a68a015b1bd32805d52.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65fd0695b44b131611711081109274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ঢাকা কলেজের একাদশ শ্রেণির বিভিন্ন ছাত্রাবাসে বরাদ্দকৃত ছাত্রদের নামের তালিকা এবং নিয়মাবলি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65fc061ab8a37100417110154509499cdbe5a08ac3c245b132cf760063e.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ২৫ শে মার্চ গণহত্যা দিবস এবং ২৬ শে মার্চ মহান স্বাধীনতা দিবস ও জাতীয় দিবস-২০২৪
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65fbe2434e7ee605171100627589649686af4622921551e5b755c10690.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           বঙ্গবন্ধু সৃজনশীল মেধা অন্বেষণ প্রতিযোগিতা -২০২৪
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65f9580d5a98324991710839821ed14ffafb1d8ed84d3f04aafe1f23013.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2022-2023) Special Test Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65f7e543b7f502011710744899f2d07694d4a5f46739bd4188cf7cec4b.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2022-2023) Test Exam Result Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65f6b2b452ee6277217106664201e5c13143f16dea8db6d4b6ddf9f75f4.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           17 মার্চ জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমান এর জন্মবার্ষিকী ও জাতীয় শিশু দিবস 2024 অনুষ্ঠানের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65f285c09436216691710392768349ce7a03aed09710eb4e875e655d64c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-13
+          </td>
+         </tr>
+         <tr>
+          <td>
+           পবিত্র রমজান মাসে বাসের রুট
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65f05d397decc184717102513211d1696bfd40ad97ea749adb5ef5fabe3.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ঐতিহাসিক ৭ই মার্চ দিবস ২০২৪ উদযাপন
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65ed883a24a78151717100657221dd708997797a0c6e050c3c310a84f2c.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Room Changing Notice for half Yearly exam-2024
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65e97cebab40631351709800683b637fb7d86fcb699372b48a658d94389.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ঐতিহাসিক 7ই মার্চ দিবস-2024 উদযাপন উপলক্ষে প্রতিযোগিতার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65e97c94ee26113117098005965c086394d70c818b71c021a40e08b9a7.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           7 th March Programme 2024
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65e880ea53975259417097361701610d89165bd09bb8cc39a17091e910c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-06
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2022-2023) CT-3 Result Pulished
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65e468819726a10717094677774f04bda01fe7a517f85af643da6bef3e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Corrected Notice For XI (2023-2024) Half-Yearly Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65e46844268be32051709467716d0e85154227ea8c99415b3d2adc297bb.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-03-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HSC Registration Session 2023-2024
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65de96deedd4e2287170908643057dbc681ffa7b7a5d5c5c5b0ec6feb37.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির রেজিস্ট্রেশনে বিষয়, ছবি পরিবর্তন ও ছাড়পত্র বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65de959fab91e12761709086111016cc09d9c328dc576299075851b84f8.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির রেজিস্ট্রেশনে বিষয়, ছবি পরিবর্তন ও ছাড়পত্র বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65de9b67237587041709087591016cc09d9c328dc576299075851b84f8.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Practical Notice(session 2022-23)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65db47d2062de11731708869586a32456a39f9e4059a5c73189cc90e990.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Practical Notice(session 2022-23)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65db47ade98f323541708869549a32456a39f9e4059a5c73189cc90e990.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Practical Notice(session 2022-23)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65db47774578310281708869495a32456a39f9e4059a5c73189cc90e990.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Practical Notice(session 2022-23)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65db4763b96ff31301708869475a32456a39f9e4059a5c73189cc90e990.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Masters Final Special Exam Form Fillup-2020 and Money Deposit.
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d9804223e7b15411708752962c7c42659037157aee58a55a6478fd541.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Masters Final Special Exam Form Fillup-2020 and Money Deposit.
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d97ff7c56d221141708752887c7c42659037157aee58a55a6478fd541.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           25 ফেব্রুয়ারি 2024 তারিখ আলোচনা সভার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d97fc789fe212861708752839f6c594dd0c5f233fb5ead10f8a2cb7c1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           পবিত্র শব-ই-বরাত উপলক্ষে কলেজ বন্ধের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d97f81a61ef11891708752769faf49a953b7b19c33058787d40e61c2d.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ঢাকা কলেজ বার্ষিকী 2024 এ লেখা পাঠানোর বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d6e4e1e342020241708582113511631ef6b35f7ad6296420244e0ee92.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির সিলেবাস সংক্রান্ত বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d6dca3098fc79717085800034f54dec798074ba575452db6659f383e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির সিলেবাস সংক্রান্ত বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d6dbffab418251417085798394f54dec798074ba575452db6659f383e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির সিলেবাস সংক্রান্ত বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d6dbece2217200517085798204f54dec798074ba575452db6659f383e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-22
+          </td>
+         </tr>
+         <tr>
+          <td>
+           মহান শহিদ দিবস এবং আন্তর্জাতিক মাতৃভাষা  দিবস ২০২৪
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d301f0e08db10371708327408345db50ec470a7156dac68672cb1d33d.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-19
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Elora Das Sumi
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d1ba5280e5639617082435384d64d4051fea64c1aab914086f83b218.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Patimohan Biswas
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65d1aafdc06e8186817082396133328b2513acdcadc7b4563bfc03f3092.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-18
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Corrected NID Mothers Name for Elora Dash Sumi
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65ce3d295f1ec7731708014889ef12315836a306ad23839de6113300c7.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC S.M. Abdur Rahim, Assciate Professor, Dept of Statistics
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65cdaf45245ff278217079785650ac25abc4d08f9c2cc1ca99af29f9f59.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice For Class XII (2022-2023)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65cb61a11257b2953170782761715622fe2515b228da5018691be542025.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-13
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65c97cbb17dbd33001707703483274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023-24) Half-Yearly Exam Corrected Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65c8c4bf3ebaa133117076563834b5f0b213ba97d814e37cdca4a02f5a7.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ হতে স্নতকোত্তর শ্রেণির সংখ্যালঘু সম্প্রদায় উপবৃত্তির বিজ্ঞপ্তি and আবেদন ফরম
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65c383e348e1021311707312099b769e7adc52e576c15cd610d4390e480.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ হতে স্নতকোত্তর শ্রেণির সংখ্যালঘু সম্প্রদায় উপবৃত্তির বিজ্ঞপ্তি and আবেদন ফরম
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65c383cc35f7017611707312076b769e7adc52e576c15cd610d4390e480.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ হতে স্নতকোত্তর শ্রেণির সংখ্যালঘু সম্প্রদায় উপবৃত্তির বিজ্ঞপ্তি and আবেদন ফরম
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65c383b9a0c5c11881707312057b769e7adc52e576c15cd610d4390e480.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           কলেজ মাঠে বার্ষিক ক্রীড়া প্রতিযোগিতার বাছাই ও চূড়ান্ত পর্ব অনুষ্ঠানের বিজ্ঞপ্তি and বার্ষিক ক্রীড়া প্রতিযোগিতার বাছাই ও চূড়ান্ত পর্ব কলেজ মাঠে অনুষ্ঠিত হওয়ার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65c37aa2af6f3263917073097307383196e4b3044c7cf484d272094f875.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           কলেজ মাঠে বার্ষিক ক্রীড়া প্রতিযোগিতার বাছাই ও চূড়ান্ত পর্ব অনুষ্ঠানের বিজ্ঞপ্তি and বার্ষিক ক্রীড়া প্রতিযোগিতার বাছাই ও চূড়ান্ত পর্ব কলেজ মাঠে অনুষ্ঠিত হওয়ার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65c37a36c483e244717073096227383196e4b3044c7cf484d272094f875.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ (2023-2024) ছাত্রদের অর্ধ-বার্ষিক পরীক্ষা সংক্রান্ত নোটিশ 001
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65c379dfdd4ca147617073095350d80e38a778edf9be5edb7a50e3c3522.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ইলোরা দাশ সুমি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65c20199ebe1a332817072132099a9c9b5ac7c480eac5c13efdca561513.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-06
+          </td>
+         </tr>
+         <tr>
+          <td>
+           মো: তৌহিদুর রহমান
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65bf6495f3e0322591707041941f58d6c1c8e565b566f011afeb236c82e.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice For XI (2023-2024) Half Yearly Exam
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65bb4467582e514641706771559062b191787e6384d8a7a94ea45ca3ae7.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2021-2022 শিক্ষাবর্ষে মাস্টার্স শেষপর্ব (বিশেষ) ভর্তির বিজ্ঞপ্তি ও টাকা জমার বিবরণ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65bb4413a5fcc298117067714757b1f519031a2bf9155a0fb50e8cf2d7c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           2021-2022 শিক্ষাবর্ষে মাস্টার্স শেষপর্ব (বিশেষ) ভর্তির বিজ্ঞপ্তি ও টাকা জমার বিবরণ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65bb43a21b0a887117067713627b1f519031a2bf9155a0fb50e8cf2d7c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-02-01
+          </td>
+         </tr>
+         <tr>
+          <td>
+           অনার্স 2য় বর্ষ মানোন্নয়ন পরীক্ষা 2022 এর ফরম পূরণের ফি জমা সংক্রান্ত বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b9f2b7d873e170217066851112eae073c802bac9316a7628e9a684c25.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-31
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2022-2023) Test Exam Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b9be675aeed175017066717199a1257dacbe5946d84cda4355c7756ee.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-31
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023-2024) Half Yearly Exam  Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b9be42c59e5907170667168209609712f71cb06372c4d04b7f280bab.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-31
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণি শিক্ষাবর্ষ 2023-2024 বিষয় ও অনলাইন টিসি এবং বোড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b95ee9d7ecc262217066472735b730b0f774b7f049305675f9208abd1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণি শিক্ষাবর্ষ 2023-2024 বিষয় ও অনলাইন টিসি এবং বোড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b95ed6218f8135017066472545b730b0f774b7f049305675f9208abd1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII (2022-2023) Practical Class &amp; Khata Signature Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b95e807bb2e122170664716885fbdc38ef413bf2d506d889d8a41aac.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI (2023-2024)  Practical Class &amp; Khata Signature Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b95e5f959bb1205170664713506b6f24909495210d7e6d1b0becba983.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-30
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII CT-3 Corrected Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b76033f29246231706516531c2ee5e938a6b935fe28fc517a2d5b0f0.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-29
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI CT-2 Corrected Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b20e055ca1b279217061678131b8c59d20be2c04c7868033d998fa483.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Monira Begum Professor Dept of Sociology
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b20bdf0e6b5270517061672634dd4a3a35ff90c0f7a04f4e34129e4e5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-25
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষাবর্ষ 2023-2024 শিক্ষার্থীদের অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি and দ্বাদশ শ্রেণির শিক্ষাবর্ষ 2022-2023 শিক্ষার্থীদের অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b109d62df27120317061012069c6bfb611e40e8a86c2c6f393e15bd79.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষাবর্ষ 2023-2024 শিক্ষার্থীদের অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি and দ্বাদশ শ্রেণির শিক্ষাবর্ষ 2022-2023 শিক্ষার্থীদের অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b109b041dae67217061011689c6bfb611e40e8a86c2c6f393e15bd79.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষাবর্ষ 2023-2024 শিক্ষার্থীদের অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি and দ্বাদশ শ্রেণির শিক্ষাবর্ষ 2022-2023 শিক্ষার্থীদের অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b1077c68a6d163017061006049c6bfb611e40e8a86c2c6f393e15bd79.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষাবর্ষ 2023-2024 শিক্ষার্থীদের অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি and দ্বাদশ শ্রেণির শিক্ষাবর্ষ 2022-2023 শিক্ষার্থীদের অনলাইন টিসি ও বোর্ড পরিবর্তনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b106fa84c16299917061004749c6bfb611e40e8a86c2c6f393e15bd79.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CT-3 Routine for class Xii
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65b106b70bdcd17041706100407fcd8b973d72ac153e5e791d7bc244567.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-24
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ছাত্রাবাসের সিট বরাদ্দের সাক্ষাৎকারের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65accd1ef10e921821705823518d7db28e755bb02c43717600261506ac1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           রচনা প্রতিযোগিতা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65acccc65f0c87321705823430980540483be7666462ff4c969cb98571.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a83a035bb568301705523715274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           দ্বাদশ শিক্ষার্থীদের Admission Campaign এ অংশগ্রহণ সংক্রান্ত
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a771da93ec53167170547247413ec712bb8d077d5ebc5ba1b723d52ee.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           CT-2 routine for class xi
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a7713287a94100617054723069b2d49fbde3fdd5eebbedc25270d82eb.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           classroom changing notice for the date of 17-01-2024
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a7710f488841688170547227150f8763104a6b6456b9862e2ff036bb4.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC:চৌধুরী রাসেদুন্নবী
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a770917243f2998170547214575f1cea876cb29d08026c4d459c629e5.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-17
+          </td>
+         </tr>
+         <tr>
+          <td>
+           উচ্চমাধ্যমিক ২০২৪ এর পরীক্ষার্থীদের জন্য আইসিটি ব্যবহারিক খাতার নমুনা ।সকল শিক্ষার্থীদের আগামী ১৫/০২/২৪ তারিখের মধ্যে আইসিটি ব্যবহারিক খাতা জমা দেওয়ার জন্য অনুরোধ করা হল।
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a731017518610041705455873f3c65da96426ad2c3ba4bb49edb378f1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-16
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII result published
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a57822a8d7020921705343010f5b268641c12df7fe5854791e39fb22b.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XI result publish
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a537c0a340d22441705326528c088774c0de39c1c0865e54d92cce84a.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ছাত্রাবাসের সিট বরাদ্দের সাক্ষাৎকারের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a4e17d94d8b7041705304445d7db28e755bb02c43717600261506ac1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষাবর্ষ 2023-2024 এর সমন্বিত উপবৃত্তির ভুল থাকলে ভুল সংশোধনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a4e14b9a0ea266517053043954ac1125c4839e9be0c4ec0397056a90e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষাবর্ষ 2023-2024 এর সমন্বিত উপবৃত্তির ভুল থাকলে ভুল সংশোধনের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65a4e122634e53717053043544ac1125c4839e9be0c4ec0397056a90e.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-15
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC: দীপা সাহা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659fd92d7499321321704974637d5f17c6c80c3d3e8fbad8187f152af31.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659fd8ba8ad6820651704974522274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           10 জানুয়ারি জাতির পিতা বঙ্গবন্ধু শেখ মুজিবুর রহমান-এর স্বদেশ প্রত্যাবর্তন দিবস উপলক্ষে শ্রদ্ধা নিবেদন এবং আলোচনা সভা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659ec63a82f5d2711170490425044c662bb71145b95db708ad9652b5a4f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC:তাহুরা খাতুন
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659e5f11a2a9121001704877841778b47ea4eb512ec00daabe600503f35.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC:  আনিচুর রহমান
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659e5ebd863ae129817048777570eb61a33e6725de735e1da47a519b897.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           নায়লা আক্তার
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659e42e1ea1b830571704870625ccea89ed2eb73241c7235c87356defe0.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-10
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC:সেখ সাব্বির আহমেদ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659cb43840fd519321704768568c582256d3a17be176bf6850eaa86c418.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-09
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির 2023-2024 শিক্ষাবর্ষের ছাত্রদের অন লাইনে রেজিষ্ট্রেশন কার্যক্রম সম্পন্ন এর বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659bc5393e28c1916170470738520154c6c174416bc008184626864a4f8.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির 2023-2024 শিক্ষাবর্ষের ছাত্রদের অন লাইনে রেজিষ্ট্রেশন কার্যক্রম সম্পন্ন এর বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659bc519de4fe1841170470735320154c6c174416bc008184626864a4f8.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice For XI &amp; XII Winter Dress
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659bc3eb73cb320721704707051876f1d51a8d0ae62f32ba00855b109e6.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Md. Idrish Howlader
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659bb41ed2b2c24081704703006a44a2e07df0c7a4cbc96a28314f3e9c9.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-08
+          </td>
+         </tr>
+         <tr>
+          <td>
+           দ্বাদশ জাতীয় সংসদ নির্বাচন উপলক্ষ্যে 07 জানুয়ারি 2024 তারিখ রবিবার শিক্ষা প্রতিষ্ঠান সাধারণ ছুটি ঘোষণার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65963710f0007321417043433127ef783b61f00c996710313c0225fc809.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-04
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Ct-T-2 Routine for class Xii
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659567e12c2c120421704290273e4df138881477e581c7a09c920183d81.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           আগামীকাল 04/01/2023 তারিখ ক্লাস বন্ধের নোটিশ
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/659566ece97dd12621704290028e57077111246be11753db1d3badf3b3a.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-03
+          </td>
+         </tr>
+         <tr>
+          <td>
+           📸 Look at this post on Facebook https://www.facebook.com/share/v/bicT8oa4RbiRS6T8/?mibextid=WC7FNe
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6594191d4b54b12211704204573361f2a0228b396f90cd34959742cdcdf.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-02
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for class suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6591cc87b08b1266917040538957aa1df0dae33c1975814304ba749b557.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2024-01-31
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC:সাবরিনা খন্দকার
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/658bdaec43b53234170366436404429bc7e26ed663c8fd2722ef998ab1.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC: আ ক ম রফিকুল আলম
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/658bda85d328f22541703664261929bac35bd8f1276bc275b60bde52cdc.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-27
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Class XII Online Class Routine (Corrected)
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6584130ac4b96150417031544426466ed455cb40fe8ba8a36d30fcad933.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-21
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Rafiq Mohammad Jahangir Alarm
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6581dbcb53c30305170300922790e15488a1bc6cdd7042f7db4b087a90.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-20
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC Khitish Chandra Das
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/657968953ac0b266917024554459b1d846c4d6c9c08b5d31a60009bbceb.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-13
+          </td>
+         </tr>
+         <tr>
+          <td>
+           14 ডিসেম্বর শহিদ বুদ্ধিজীবী দিবস এবং 16 ডিসেম্বর মহান বিজয় দিবস 2023 উদযাপন উপলক্ষে উপস্থিত হওয়ার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6579684aaa4b3315917024553706940ad8142b0036b2b5cad4659bce868.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-13
+          </td>
+         </tr>
+         <tr>
+          <td>
+           ১৪ ডিসেম্বর শহিদ বুদ্ধিজীবী দিবস পালন এবং ১৬ ডিসেম্বর মহান বিজয় দিবস উদযাপন  উপলক্ষে গৃহীত কর্মসূচি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65789b2193d5a391702402849f2ebb33c335ffd6d0854484dd7beb555.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Corrected online Routine
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65786e1f5aae228581702391327e1bf3acb0843d638706dd32854a89c7c.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC for Rabeka Sultana Lipi
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65786dcab62a415401702391242f30ab795fe51ad31a09153e2a3dfc9d8.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           NOC-উম্মে ফাজিলা খাতুন
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6578216d0a3a03186170237169382bf67add4937ba263b019ba2c0cdfe8.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII Online Class Routine + 16 December Bus Route &amp; Time
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65780e2f01b6c26531702366767baab3e58149380f1ed33490d4068e73b.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           14 ডিসেম্বর শহিদ বুদ্ধিজীবী দিবস 2023 পালন উপলক্ষে উপস্থিতির বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65780dca1d0f618011702366666e3c132f0a8f8f4785e802f765d4868af.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-12
+          </td>
+         </tr>
+         <tr>
+          <td>
+           মহান বিজয় দিবস 2023 উপলক্ষে কবিতা আবৃত্তি ও রচনা প্রতিযোগিতার বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6576dd3d15ae213341702288701f3796cc7a73e0ba358aefcc5c12e5787.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice For Class XI &amp; XI About Victory Day Attedance
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6576dcb2c47fd170417022885623858f984bf2d75b33af0e6471538e9b2.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           Notice for Class Suspend
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6576dae40a49510821702288100274d1b721b09a7750dbfe8fb7445aa1f.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-11
+          </td>
+         </tr>
+         <tr>
+          <td>
+           HSC Registration Session 2023-2024
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/657218514f9ae1321170197614557dbc681ffa7b7a5d5c5c5b0ec6feb37.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষাবর্ষ 2023-2024 এর রেজিস্ট্রেশনের বিষয় পরিবর্তন, ছবি পরিবর্তন,টিসি, বিটিসি ও ভর্তি বাতিল এর বিজ্ঞপ্তি ও তালিকা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/6571a71324925111417019471552754b294016f2cee637db8a6fc67ebce.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির শিক্ষাবর্ষ 2023-2024 এর রেজিস্ট্রেশনের বিষয় পরিবর্তন, ছবি পরিবর্তন,টিসি, বিটিসি ও ভর্তি বাতিল এর বিজ্ঞপ্তি ও তালিকা
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/657187b07cbcf219717019391202754b294016f2cee637db8a6fc67ebce.pdf">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-07
+          </td>
+         </tr>
+         <tr>
+          <td>
+           একাদশ শ্রেণির ২০২৩-২৪ সেশনের ছাত্রাবাসের সিট বরাদ্দের বিজ্ঞপ্তি
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/65707309079b61432170186829732af2671876c1fc19c95358970ef1409.jpg">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-06
+          </td>
+         </tr>
+         <tr>
+          <td>
+           XII Notice
+          </td>
+          <td>
+           <a download="" href="https://dhakacollege.edu.bd/uploads/656fddb382d0f129317018300677051d391e6f0baa79f3993dc527318be.png">
+            Download
+           </a>
+          </td>
+          <td>
+           2023-12-06
+          </td>
+         </tr>
+        </tbody>
+       </table>
+       <!-- Table End -->
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <!-- Back to top Button Start -->
+  <a class="back-top" id="button">
+  </a>
+  <footer>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-3">
+      <img src="https://dhakacollege.edu.bd/frontend/img/logo.png"/>
+      <p>
+       উচ্চ মাধ্যমিক ও উচ্চ শিক্ষার ক্ষেত্রে একটি সফল শিক্ষা প্রতিষ্ঠান হিসেবে ঢাকা কলেজ নিরন্তর অবদানে সগৌরবে সমুজ্জ্বল।
+      </p>
+     </div>
+     <div class="col-md-3">
+      <h3>
+       Useful Links
+      </h3>
+      <ul>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="http://www.pmo.gov.bd/">
+         প্রধানমন্ত্রীর কার্যালয়
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="https://moedu.gov.bd/">
+         শিক্ষা মন্ত্রণালয়
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="http://www.dshe.gov.bd/">
+         মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তর
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="http://www.educationboard.gov.bd/">
+         Education Board Bangladesh
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="http://www.nctb.gov.bd/">
+         এনসিটিবি
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="https://dshe.gov.bd/site/page/2b49f7f0-b527-4f55-b100-45e8eb59ebb6/%E0%A6%A8%E0%A7%8B%E0%A6%9F%E0%A6%BF%E0%A6%B6--%E0%A6%85%E0%A6%AB%E0%A6%BF%E0%A6%B8-%E0%A6%86%E0%A6%A6%E0%A7%87%E0%A6%B6">
+         নোটিশ/অফিস আদেশ
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="http://www.dshe.gov.bd/site/page/043d81a3-a9d9-4a72-97d2-e3af5ff14c48/%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%9C%E0%A7%8D%E0%A6%9E%E0%A6%BE%E0%A6%AA%E0%A6%A8--%E0%A6%A8%E0%A7%80%E0%A6%A4%E0%A6%BF%E0%A6%AE%E0%A6%BE%E0%A6%B2%E0%A6%BE--%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AA%E0%A6%A4%E0%A7%8D%E0%A6%B0--%E0%A6%95%E0%A6%BE%E0%A6%A0%E0%A6%BE%E0%A6%AE%E0%A7%8B/">
+         প্রজ্ঞাপন/নীতিমালা/পরিপত্র/কাঠামো
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="http://dshe.gov.bd/site/office_citizen_charter/b6bfb72d-24cb-436b-a232-5f13d7d7a004/%E0%A6%B8%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%A8-%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0">
+         সিটিজেন চার্টার (শিক্ষা মন্ত্রণালয়)
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-md-3">
+      <h3>
+       Academic Links
+      </h3>
+      <ul>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="http://banbeis.gov.bd/">
+         ব্যানবেইজ
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="http://naem.gov.bd/">
+         নায়েম
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="">
+         Dhaka College APA 2020-2021
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="https://dhakacollege.edu.bd/wp-content/uploads/2021/09/Dhaka-College-APA-2021-2022-final-pdf-1.pdf">
+         Dhaka College APA 2021-2022
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="">
+         NIS DC 2021-22 1st quarterly report
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="https://dshe.portal.gov.bd/site/office_citizen_charter/42c3613a-5bcc-4a4b-8190-7d01b8a2fc05/%E0%A6%B8%E0%A6%BF%E0%A6%9F%E0%A6%BF%E0%A6%9C%E0%A7%87%E0%A6%A8-%E0%A6%9A%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0">
+         সিটিজেন চার্টার (মাউশি)
+        </a>
+       </li>
+       <li>
+        <i aria-hidden="true" class="fa fa-chevron-right">
+        </i>
+        <a href="http://www.dshe.gov.bd/site/page/b68fc292-322f-4e81-aee0-f8ff77a30666/%E0%A6%86%E0%A6%AC%E0%A7%87%E0%A6%A6%E0%A6%A8-%E0%A6%93-%E0%A6%86%E0%A6%AA%E0%A6%BF%E0%A6%B2-%E0%A6%AB%E0%A6%B0%E0%A6%AE">
+         আবেদন ও আপিল ফরম (মাউশি)
+        </a>
+       </li>
+      </ul>
+     </div>
+     <div class="col-md-3">
+      <h3>
+       Connent With Us
+      </h3>
+      <ul>
+       <li>
+        <a href="mailto:dhakacollegeprincipal@gmail.com">
+         <i class="fa fa-envelope">
+         </i>
+         dhakacollegeprincipal@gmail.com
+        </a>
+       </li>
+       <li>
+        <a href="tel:02-9666058">
+         <i class="fa fa-phone">
+         </i>
+         02-9666058
+        </a>
+       </li>
+      </ul>
+     </div>
+    </div>
+    <div class="row">
+     <div class="social-icons">
+      <div class="col-md-12">
+       <ul>
+        <li>
+         <a href="https://www.facebook.com/profile.php?id=100076418677544&amp;mibextid=LQQJ4d">
+          <i class="fa-brands fa-facebook-f">
+          </i>
+         </a>
+        </li>
+        <li>
+         <a href="#">
+          <i class="fa-brands fa-twitter">
+          </i>
+         </a>
+        </li>
+        <li>
+         <a href="https://www.youtube.com/c/MujahedulIslam">
+          <i class="fa-brands fa-youtube">
+          </i>
+         </a>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+    <div class="row credit">
+     <div class="col-md-12">
+      <p>
+       ©
+       <script>
+        document.write(new Date().getFullYear());
+       </script>
+       Dhaka College. Developed by:
+       <a href="https://www.facebook.com/Tanver.ICT">
+        TanverIctCare
+       </a>
+      </p>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <!-- Footer Section End -->
+  <!-- Jquery Js CDN Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" type="text/javascript">
+  </script>
+  <!-- Bootstrap Js CDN Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" type="text/javascript">
+  </script>
+  <!-- Data Table Js CDN -->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" type="text/javascript">
+  </script>
+  <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js" type="text/javascript">
+  </script>
+  <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js" type="text/javascript">
+  </script>
+  <!-- Marquee -->
+  <script src="https://cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js" type="text/javascript">
+  </script>
+  <!-- Swiper JS  -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js">
+  </script>
+  <!-- WOW JS -->
+  <script src="https://dhakacollege.edu.bd/frontend/js/wow.min.js">
+  </script>
+  <!-- WayPoints -->
+  <script src="https://dhakacollege.edu.bd/frontend/js/jquery.waypoints.min.js" type="text/javascript">
+  </script>
+  <!-- CounterUp JS  -->
+  <script src="https://dhakacollege.edu.bd/frontend/js/jquery.counterup.min.js" type="text/javascript">
+  </script>
+  <!-- Custom Js File -->
+  <script src="https://dhakacollege.edu.bd/frontend/js/main.js" type="text/javascript">
+  </script>
+  <script src="https://dhakacollege.edu.bd/frontend/js/owl.carousel.js">
+  </script>
+  <script>
+   $('.owl-carouse').owlCarousel({loop:true,margin:10,nav:true,autoplay:true,responsive:{0:{items:1},400:{items:2},750:{items:3},1000:{items:4}}})
+  </script>
+  <script src="https://dhakacollege.edu.bd/frontend/js/owl_gallery.js">
+  </script>
+ </body>
+</html>
